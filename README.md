@@ -7,8 +7,7 @@ under Uncertainty in Temporal Availability Constraints- This project addresses t
 
 Specifically, two types of strategies are employed to address the problem: the first utilizes linear programming techniques with constraints (MILP algorithm), and the second employs a multi-objective genetic algorithm. In the case of the MILP algorithm, uncertainty is not considered, and its results will serve as a baseline for comparisons in terms of quality, effectiveness, and efficiency with respect to the results achieved by the genetic algorithm, which does consider uncertainty.
 
-The project is implemented in Python and uses libraries like Pulp, NumPy, and Matplotlib. All the details of the project are described in the final paper.
-
+The project is implemented in Python and uses libraries like Pulp, NumPy, and Matplotlib. 
 ## Artifact structure
 This repository contains the following items:
 * Readme.md: this file explaning the code of the project

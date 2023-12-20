@@ -1,7 +1,7 @@
 # Automated Planning for Adaptive Cyber-Physical Systems under Uncertainty in Temporal Availability Constraints
 
 
-## Sumary 
+## Summary 
 This repository contains the replication package of the article Automated Planning for Adaptive Cyber-Physical Systems
 under Uncertainty in Temporal Availability Constraints- This project addresses the challenge of planning tasks under conditions of uncertainty, specifically focusing on planning under temporal availability constraints, where necessary resources are only available during limited time windows. We present an approach that utilizes genetic algorithms to tackle this issue, enhancing robustness and efficiency in sCPS scenarios such as electric vehicle charging and healthcare robotics.
 

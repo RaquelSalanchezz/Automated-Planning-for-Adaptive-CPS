@@ -1,8 +1,9 @@
 # Automated Planning for Adaptive Cyber-Physical Systems under Uncertainty in Temporal Availability Constraints
-## SEAMS 2024 artifact
+
 
 ## Sumary 
-This repository contains all resources from the automated planning project, submitted to Artifacts track at SEAMS 2024. This project addresses the challenge of planning tasks under conditions of uncertainty, specifically focusing on planning under temporal availability constraints, where necessary resources are only available during limited time windows. We present an approach that utilizes genetic algorithms to tackle this issue, enhancing robustness and efficiency in sCPS scenarios such as electric vehicle charging and healthcare robotics.
+This repository contains the replication package of the article Automated Planning for Adaptive Cyber-Physical Systems
+under Uncertainty in Temporal Availability Constraints- This project addresses the challenge of planning tasks under conditions of uncertainty, specifically focusing on planning under temporal availability constraints, where necessary resources are only available during limited time windows. We present an approach that utilizes genetic algorithms to tackle this issue, enhancing robustness and efficiency in sCPS scenarios such as electric vehicle charging and healthcare robotics.
 
 Specifically, two types of strategies are employed to address the problem: the first utilizes linear programming techniques with constraints (MILP algorithm), and the second employs a multi-objective genetic algorithm. In the case of the MILP algorithm, uncertainty is not considered, and its results will serve as a baseline for comparisons in terms of quality, effectiveness, and efficiency with respect to the results achieved by the genetic algorithm, which does consider uncertainty.
 

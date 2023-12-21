@@ -73,10 +73,22 @@ To run the code, you need to do it within the Google Colab, Jupyter Notebook, or
 
 Remember that any changes you make in Colab won't affect the original file on your computer. If you want to save changes, download the notebook from Colab and replace the original file with the modified version locally.
 
-### Vehicles 
-For the case of electric vehicles, the final version of the genetic algorithm is in file 'vehicles_under_uncertainty.ypinb' while the MILP algorithm is in file 'vehicles_without_uncertainty.ypinb'. The algorithms solving the robot problem are both in file 'Robots_algorithms.ypinb'. Yo can execute the algorithms using the data files or create them directly in the code using the content of 'data.txt'.
+### Execution of algorithms for the vehicles context. 
+For the case of electric vehicles, the final version of the genetic algorithm is in file 'vehicles_under_uncertainty.ypinb' while the MILP algorithm is in file 'vehicles_without_uncertainty.ypinb'. To run the code, you must follow the detailed steps in the previous section. You can execute the algorithms using the data files or create them directly in the code using the content of 'data.txt'. The general steps you should follow to test the algorithms are as follows:
 
-You can also generate the evaluation charts using the code using the code found in evaluation_charts.ypinb.
+1. Import the data files into the environment if you wish to use them, or modify the code snippet where vehicles and chargers are declared by adding or removing them and editing their characteristics. You can use the file data.txt for this purpose.
+2. Execute the cells where libraries are installed, classes are declared, and basic functions required by the algorithms are defined.
+3. Run the cell containing the main program. The output of this cell displays the planning, the total cost of the solution, and the timespan.
+
+### Execution of algorithms for the robots context.
+The algorithms solving the robot problem are both in file 'Robots_algorithms.ypinb'. Similarly, for the vehicles case, you have the option to run the algorithms by utilizing existing data files or generating them directly in the code using the contents of 'data.txt'.
+
+1. Import the data files into the environment if you intend to utilize them. Alternatively, you can modify the code snippet where robots and patients are declared by adding or removing them and adjusting their characteristics. The file data.txt can be employed for this task.
+2. Execute the cells where libraries are installed, classes are declared, and basic functions required by the algorithms are defined.
+3. Run the cell containing the main program. The output of this cell displays the planning, the timespan of the solution.
+
+### Execution of the code to generate the charts
+You can also generate the evaluation charts using found in evaluation_charts.ypinb.
 
 
 

@@ -88,7 +88,7 @@ The algorithms solving the robot problem are both in file 'Robots_algorithms.ypi
 3. Run the cell containing the main program. The output of this cell displays the planning, the timespan of the solution.
 
 ### Execution of the code to generate the charts
-You can also generate the evaluation charts using found in evaluation_charts.ypinb.
+You can also generate the evaluation charts using the code found in evaluation_charts.ypinb. To achieve this, simply run the cells in order, and various graphs will be displayed as output. If you wish to modify the data to create new graphs, you can do so by editing the data matrices at the beginning of the code that generates each graph.
 
 
 

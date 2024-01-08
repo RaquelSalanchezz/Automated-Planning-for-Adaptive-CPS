@@ -21,16 +21,17 @@ The project is implemented in the latest version of Python (3.12.1) and requires
 * NumPy 1.26.2
 * Matplotlib 3.8.2
   
-## Artifact structure
+## Repository structure
 This repository contains the following items:
 * `Readme.md`: this file explaning the code of the project
 * `Vehicles_algorithms`: this folder contains two files
   * `vehicles_without_uncertainty.ypinb`: this file contains the differente versions of the algorithms that solve the vehicle charging planning problem without considering uncertainty. This is where the implementation of the MILP algorithm used as the basis for the experiments is located.
   * `vehicles_under_uncertainty.ypinb`: this file contains the differente the algorithms that solve the vehicle charging planning problem considering uncertainty. This is where the implementation of the genetic algorithm used in experiments is located.
-* `Robots_algorithms.ypinb`: in this file, we can find the two algorithms implemented to solve the problem of robots in the healthcare domain (The MILP algorithm that does not consider uncertainty and the genetic algorithm that does).
-* `data.txt`: code that contains the data you can modify and add to the algoritms code to conduct experiments.
-* `vehicles.txt` and `patients.txt`: data files used to run the algorithms in some experiments.
-* `evaluation_charts.ypinb`: code used to generate the evaluation charts included in the paper.
+* `Robots_algorithms`: this folder contains the file `Robots_algorithms.ypinb`. In this file, we can find the two algorithms implemented to solve the problem of robots in the healthcare domain (The MILP algorithm that does not consider uncertainty and the genetic algorithm that does).
+* * `Data`: in this folder we can find the data files used to run the experiments.
+  * `data.txt`: code that contains the data you can modify and add to the algoritms code to conduct experiments. You can copy and paste all the content or part of it directly in the code.
+  * `vehicles.txt` and `patients.txt`: data files used to run the algorithms in some experiments. These are files external to the code.
+  * `evaluation_charts.ypinb`: code used to generate the evaluation charts included in the paper.
 
 ## Running the Experiments
 To run the code, you need to do it within the Google Colab, Jupyter Notebook, or a similar environment. The following explains how to run algorithms in Google Colab:

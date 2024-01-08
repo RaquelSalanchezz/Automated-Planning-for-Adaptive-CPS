@@ -93,7 +93,7 @@ You can also generate the evaluation charts using the code found in evaluation_c
 
 ## Using the data files and generate your own input data
 As already shown, there are three files within the 'Data' folder containing sample data for running the algorithms.
-* `example_vehicle_object.txt` contains example code for creating different objects of the 'Vehicle' class. You can copy and paste its entire content or parts of it to directly create vehicles within the algorithm code without using external files. The file includes up to 150 vehicles and has been used to run various experiments. Each vehicle is initialized with a set of parameters: the vehicle identifier, the distance it has to travel, the approximate arrival and departure times, current load, battery capacity, charging speed, and discharge rate. The parameters are set in that order
+* `example_vehicle_object.txt` contains example code for creating different objects of the 'Vehicle' class. You can copy and paste its entire content or parts of it to directly create vehicles within the algorithm code without using external files. The file includes up to 150 vehicles and has been used to run various experiments. Each vehicle is initialized with a set of parameters: the vehicle identifier, the distance it has to travel, the approximate arrival and departure times, current load, battery capacity, charging speed, and discharge rate. The parameters are set in that order. Following this structure, we can create new vehicles with new data
 
 
 
